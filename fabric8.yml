@@ -2,11 +2,12 @@
 buildName: "wildfly-swarm-multi-module"
 links:
   Git: "https://github.com/carlosthe19916/wildfly-swarm-multi-module.git"
-  Job: "http://192.168.42.134:30878/job/wildfly-swarm-multi-module"
-  Production: "http://10.0.0.188:80/kubernetes/pods?namespace=default-prod"
-  Staging: "http://10.0.0.188:80/kubernetes/pods?namespace=default-staging"
-  Testing: "http://10.0.0.188:80/kubernetes/pods?namespace=default-testing"
+  Job: "http://192.168.42.86:30732/job/wildfly-swarm-multi-module"
+  Production: "http://10.0.0.146:80/kubernetes/pods?namespace=default-production"
+  Staging: "http://10.0.0.146:80/kubernetes/pods?namespace=default-staging"
+  Testing: "http://10.0.0.146:80/kubernetes/pods?namespace=default-testing"
 environments:
   Testing: "default-testing"
   Staging: "default-staging"
-  Production: "default-prod"
+  Production: "default-production"
+useLocalFlow: true
