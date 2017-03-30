@@ -1,7 +1,7 @@
 ---
 buildName: "wildfly-swarm-multi-module1"
 links:
-  Git: "https://github.com/carlosthe19916/wildfly-swarm-multi-module.git"
+  Git: "http://gogs/carlosthe19916/wildfly-swarm-multi-module.git"
   Job: "http://192.168.42.86:30732/job/wildfly-swarm-multi-module1"
   Production: "http://10.0.0.146:80/kubernetes/pods?namespace=default-production"
   Staging: "http://10.0.0.146:80/kubernetes/pods?namespace=default-staging"
